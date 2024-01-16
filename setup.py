@@ -9,7 +9,6 @@ setup(
     license="BSD",
     packages=["redis_cache", "redis_cache.backends"],
     description="Redis Cache Backend for Django",
-    install_requires=['redis<4.0'],
     classifiers=[
         "Programming Language :: Python",
         "Programming Language :: Python :: 3.6",
